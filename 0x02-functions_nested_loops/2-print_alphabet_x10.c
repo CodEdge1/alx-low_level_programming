@@ -1,12 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 
-
 /**
- * main - Check description
- * Description: It prints 10 times the alphabet, in lowercase, followed by a new line.
- * Return: 0.
- */
+  * print_alphabet_x10 - Make alphabet x10 times
+  *
+  * Return: void
+  */
 
 void print_alphabet_x10(void)
 {
@@ -19,7 +18,6 @@ void print_alphabet_x10(void)
 		{
 			_putchar(alpha);
 		}
-		_putchar('\n');
 	}
 	_putchar('\n');
 }
