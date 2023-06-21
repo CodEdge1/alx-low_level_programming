@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <ctype.h>
 
 /**
  * main - Check description
@@ -7,12 +8,12 @@
  * Return 0
  */
 
-int _islower(int c);
+int _islower(int c)
 {
-	char ch;
+	int ch;
 	for(ch="a"; ch<="z"; ch++)
 	{
-		char d="c";
+		int d="c";
 		if(islower(d))
 		{
 			return(1);
