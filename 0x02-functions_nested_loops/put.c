@@ -6,22 +6,19 @@
  * main - Check description
  * Description: It prints the word _putchar, followed by a new line.
  * Return 0
- */
+*/
 
-int _islower(int c)
+void print_alphabet_x10(void)
 {
-	int ch;
-	for(ch="a"; ch<="z"; ch++)
-	{
-		int d="c";
-		if(islower(d))
-		{
-			return(1);
-		}
-		else
-		{
-			return(0);
-		}
-	}
-	return(0);
+        char alpha;
+        int t;
+
+        for(t = 1; t <= 10; t++)
+        {
+                for(alpha = 'a'; alpha <= 'z'; alpha++)
+                {
+                        _putchar(alpha);
+                }
+        }
+        _putchar('\n');
 }
