@@ -4,14 +4,14 @@
 
 /**
  * main - Check description
- * Description: the function islower() checks for lowercase character.
- * Description: if the parameter c is lower case it returns 1 else returns 0.
- * Return: 0.
+ * Description: the function islower() checks for lowercase character c is lower case it returns 1 else returns 0.
+ * 
+ * Return: 0 and 1.
  */
 
 int _islower(int c)
 {
-	if (islower(c))
+	if(islower (c))
 	{
 		return(1);
 	}
