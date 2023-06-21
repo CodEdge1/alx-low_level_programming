@@ -3,8 +3,8 @@
 
 /**
  * main - Check description
- * Description: It prints the word _putchar, followed by a new line.
- * Return 0
+ * Description: it that checks for lowercase character.
+ * Return: 0.
  */
 
 int _islower(int c);
@@ -22,5 +22,5 @@ int _islower(int c);
 			return(0);
 		}
 	}
-	return(0);
+	return(0);	
 }
