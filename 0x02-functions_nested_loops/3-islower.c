@@ -3,21 +3,20 @@
 #include <ctype.h>
 
 /**
- * main - Check description
- * Description: the function islower() checks for lowercase character c is lower case it returns 1 else returns 0.
- * 
- * Return: 0 and 1.
- */
+  * _islower - Checks for lowercase character
+  * @c: The character to be checked
+  *
+  * Return: 1 for lowercase character or 0 for anything else
+  */
 
 int _islower(int c)
 {
-	if(islower (c))
+	if (islower(c))
 	{
-		return(1);
+		return (1);
 	}
 	else
 	{
-		return(0);
-	}
-	return(0);	
+		return (0);
+	}	
 }
