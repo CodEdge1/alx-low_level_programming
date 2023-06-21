@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - Check description
@@ -13,6 +14,6 @@ void print_alphabet(void)
 	{
 		_putchar(alpha);
 	}
-	_putchar("\n");
+	_putchar('\n');
 	return(0);
 }

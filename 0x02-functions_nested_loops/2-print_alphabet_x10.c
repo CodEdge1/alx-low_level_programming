@@ -15,11 +15,11 @@ void print_alphabet_x10(void)
 
 	for(t=1; t<=10; t++)
 	{
-		for(alpa="a"; alpha<="z"; alpha++)
+		for(alpha="a"; alpha<="z"; alpha++)
 		{
 			_putchar(alpha);
 		}
 	}
-	_putchar("\n");
+	_putchar('\n');
 	return(0); 
 }
