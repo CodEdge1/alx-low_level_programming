@@ -2,10 +2,9 @@
 #include "main.h"
 
 /**
- * main.h file created 
- * main entry file 
- *
- * return 0
+ * main - Check description
+ * Description: It prints the word _putchar, followed by a new line.
+ * Return: 0.
  */
 
 int main(void)
@@ -19,5 +18,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-	return 0;
+	return (0);
 }
